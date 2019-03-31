@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">;
+    <style>
+    body { background-color: aqua;}
+     </style>
+</head>
+<body>
+
+
+<div class="box">
+
+
+
+<img src="./assets/images/pokemon.png" alt="Pokemon"/>
+
+
+<h1>Pokemon Quiz</h1>
+<button >Start Quiz</button>
+ 
+
+<!-- insert form -->
+<!--  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form> -->
+
+<form id = "quiz" name = "quiz">
+
+<p> What color is Squirtle</p>
+<input type="radio" name="color" value="yellow"> Yellow<br>
+<input type="radio" name="color" value="blue"> Blue<br>
+<input type="radio" name="color" value="orange"> Orange<br>
+<input type="radio" name="color" value="green"> Green<br>
+
+<p> What color is Pikachu</p>
+<input type="radio" name="color" value="yellow"> Yellow<br>
+<input type="radio" name="color" value="blue"> Blue<br>
+<input type="radio" name="color" value="orange"> Orange<br>
+<input type="radio" name="color" value="green"> Green<br>
+
+
+<p> What color is Charmander</p>
+<input type="radio" name="color" value="yellow"> Yellow<br>
+<input type="radio" name="color" value="blue"> Blue<br>
+<input type="radio" name="color" value="orange"> Orange<br>
+<input type="radio" name="color" value="green"> Green<br>
+
+<p> What color is Bulbasaur</p>
+<input type="radio" name="color" value="yellow"> Yellow<br>
+<input type="radio" name="color" value="blue"> Blue<br>
+<input type="radio" name="color" value="orange"> Orange<br>
+<input type="radio" name="color" value="green"> Green<br>
+
+<input id="button" type="button" value = "I'm finished!" onclick = "check();">
+
+</form>
+
+<div id="after_submit">
+    <p id = "message"></p>
+    <p id = "number_correct"> You finished good job!</p>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./assets/javascript/app.js"></script> 
+
+
+</body>
+</html>
